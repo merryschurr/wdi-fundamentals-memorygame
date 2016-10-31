@@ -28,3 +28,18 @@ alert('Sorry, try again.');
 }else {
 alert('You found a match!');
 }
+
+Var createBoard = function(){
+
+	var boardDiv = document.getElementById('game-board');
+
+	var cards = 4;
+
+	for (var i = 0; i < card; i++) {
+		var cardDiv = document.createElement('div');
+		cardDiv.className = 'card';
+		boardDiv.appendChild(cardDiv);
+	}
+}
+
+
