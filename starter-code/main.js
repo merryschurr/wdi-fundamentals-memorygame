@@ -37,10 +37,10 @@ function isTwoCards() {
   cardsInPlay.push(this.getAttribute('data-card'));
   // show the card's image
   console.log(this.getAttribute('data-card'));
-  if (this.getAttribute('data-card') === 'king') {
-    this.innerHTML = "<img src='img/queen_m.png'>";// queen
+  if (this.getAttribute('data-card') === 'queen') {
+    this.innerHTML = '<img src="img/queen_m.png">';// queen
   } else {
-    this.innerHTML = "<img src='img/king_m.png'>"; // king
+    this.innerHTML = '<img src="img/king_m.png">'; // king
   }
   // if two cards in play match
   if (cardsInPlay.length === 2) {
